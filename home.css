@@ -1,0 +1,86 @@
+header{
+    opacity: 0.7;
+    background-color: rgb(246, 247, 250);
+    height:50px;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #080808;
+    opacity: 0.6;
+  }
+  
+  li {
+    float:left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  body{
+    
+    background-image: url(real-estate-night-view-of-skyscrapers.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1300px 500px; 
+    
+  }
+  form {
+    float: right;
+    opacity: 0.6;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #0d0d0f;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    input[type="submit"] {
+        
+        background-color: #4CAF50;
+        color: white;
+        font-size: 16px;
+        padding: 4px 8px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 70px;
+        margin-top: 8px;
+        margin-left: 70px;
+      }
+    
+      input[type="submit"]:hover {
+        background-color: #3e8e41;
+      }
+      #password {
+        margin-bottom: 8px;}
+    
+    label {
+      color: #f1f1f1;
+          font-weight: bold;
+          grid-column: 1 / 2;
+      
+    }
+    
+    input {
+      font-size: small;
+      font-weight: bold;
+      grid-column: 2 / 3;}
